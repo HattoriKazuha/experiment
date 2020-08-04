@@ -1,67 +1,28 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>实验平台3</title>
-<style>
-body
-{background-image:url('alert2.jpg');
-background-position:center center;
-background-repeat:no-repeat;
-background-attachment:fixed;
-background-size:cover;
-background-color:#98FB98}
-h1
-{text-align:center;}
-h2
-{text-align:center;}
-p
-{text-align:center}
-</style>
-<style>
-#header {
-    height: 230px;
-    background-color: #000;
-}
-#header_utilities {
-    color: white;
-	text-align:right;
-	font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>SocialPsy PKU</title>
+</head>
+<body>
+<h1>Welcome to participate in our study! </h1>
+<p>Firstly, you have to watch the video below.</p>
+<p>After watching , you can click the button below and move on.</p>
+
 <script src="js/plyr.js"></script>
 <link rel="stylesheet" href="css/plyr.css">
-</head>
 
-<body>
-<div id="header">
-<header class="header">
-</header>
-
-<div id="header_utilities">
-</br></br></br>
-<p style="color:white; font-size:40pt;text-align:center;">Psychology Experiment</p>
-
-<br />
-</div>
-
-<br />
-<h1>视频部分</h1>
+<h1>video</h1>
 <br />
 <div class="m" align="center">
-<video poster="know.jpg" width="600" height="480" controls>
-  <source src="video1.mp4">
-  <!-- <source src="video1.mp4" type="video/mop4>-->
-  <!-- Captions are optional -->
-</video>
-<script>plyr.setup();</script>
+    <video width="600" height="480" controls>
+        <source src="video1.mp4">
+        <!-- <source src="path/to/video.webm" type="video/webm">-->
+        <!-- Captions are optional -->
+    </video>
+    <script>plyr.setup();</script>
 </div>
 <br />
 
-
-
-<br />
 </body>
-
 </html>
