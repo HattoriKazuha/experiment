@@ -8,5 +8,21 @@
 <h1>Welcome to participate in our study! </h1>
 <p>Firstly, you have to watch the video below.</p>
 <p>After watching , you can click the button below and move on.</p>
+
+<script src="js/plyr.js"></script>
+<link rel="stylesheet" href="css/plyr.css">
+
+<h1>video</h1>
+<br />
+<div class="m" align="center">
+    <video width="600" height="480" controls>
+        <source src="video1.mp4">
+        <!-- <source src="path/to/video.webm" type="video/webm">-->
+        <!-- Captions are optional -->
+    </video>
+    <script>plyr.setup();</script>
+</div>
+<br />
+
 </body>
 </html>
