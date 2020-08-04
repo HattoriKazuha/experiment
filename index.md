@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## SOCIAL PSYCHOLOGY EXPERIMENT
 
 You can use the [editor on GitHub](https://github.com/HattoriKazuha/experiment/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
